@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eco-Diving Project</title>
+    {% load static%} 
+    <link rel="stylesheet" href=" {% static 'mainApp/eco_diving.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="home">
+            <a href="" class="fas fa-globe-americas"></a>
+        </div>
+        <div class="menu">
+            <a href="project/">Project</a>
+            <a href="news/">News</a>
+            <a href="your_account/">Account</a>
+            <a href="login/">Log In</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <header id="main-header">
+            <h1><em>Eco-Diving Project</em></h1>
+        </header>
+
+        <article class="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi natus accusamus odio a officia itaque beatae, error laudantium quos veritatis, architecto qui maiores placeat ad reiciendis iure, illum quisquam perferendis!</p>
+            <img src="{% static 'mainApp/plastic.jpg' %}" alt="Error 404">
+        </article>
+
+        <footer id="main-footer">
+            <p>Copyright &copy; Eco-Diving Project 2019</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
